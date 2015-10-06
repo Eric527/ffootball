@@ -18,4 +18,4 @@ files = [
 CurrentDate = time.strftime("%Y%m%d")
 
 for file in files:
-    shutil.move("./output/" + file, "./output/" + file + "." + CurrentDate)
+    shutil.move("../data/output/" + file, "../data/output/archive" + file + "." + CurrentDate)
